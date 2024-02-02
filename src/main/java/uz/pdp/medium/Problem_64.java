@@ -3,7 +3,7 @@ package uz.pdp.medium;
 public class Problem_64 {
     /*
       Paths :
-      https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming
+      https://leetcode.com/problems/minimum-path-sum
       */
 
     public static void main(String[] args) {

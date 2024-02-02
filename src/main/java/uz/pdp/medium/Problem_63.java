@@ -3,7 +3,7 @@ package uz.pdp.medium;
 public class Problem_63 {
      /*
       Paths :
-        https://leetcode.com/problems/unique-paths-ii/description/?envType=study-plan-v2&envId=dynamic-programming
+        https://leetcode.com/problems/unique-paths-ii
     */
 
     public static void main(String[] args) {
@@ -50,4 +50,5 @@ public class Problem_63 {
             }
         }
         return dp[m - 1][n - 1];
+    }
 }
