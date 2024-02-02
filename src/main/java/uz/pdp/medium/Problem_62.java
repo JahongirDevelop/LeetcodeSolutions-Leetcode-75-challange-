@@ -1,10 +1,10 @@
 package uz.pdp.medium;
 
-public class problem_62 {
-    /**
-     * Path :
-     * https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&envId=dynamic-programming
-     * */
+public class Problem_62 {
+    /*
+      Path :
+      https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&envId=dynamic-programming
+     */
 
     public static void main(String[] args) {
         System.out.println(uniquePaths(3, 7));
