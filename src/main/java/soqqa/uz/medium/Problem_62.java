@@ -1,4 +1,4 @@
-package uz.pdp.medium;
+package soqqa.uz.medium;
 
 public class Problem_62 {
     /*

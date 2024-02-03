@@ -1,4 +1,4 @@
-package uz.pdp.medium;
+package soqqa.uz.medium;
 
 import java.util.ArrayList;
 import java.util.List;

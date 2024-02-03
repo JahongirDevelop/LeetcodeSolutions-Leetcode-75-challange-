@@ -1,4 +1,4 @@
-package uz.pdp.easy;
+package soqqa.uz.easy;
 
 public class Problem_345 {
     /*
