@@ -1,4 +1,4 @@
-package uz.pdp.easy;
+package soqqa.uz.easy;
 
 import java.util.ArrayList;
 import java.util.List;
