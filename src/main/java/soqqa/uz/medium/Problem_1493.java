@@ -16,7 +16,7 @@ public class Problem_1493 {
         int n = nums.length;
         int right = 0;
         int left = 0;
-        int ans = 0;
+        int result = 0;
         while(right < n) {
             if(nums[right]==0) {
                 count++;
@@ -27,9 +27,9 @@ public class Problem_1493 {
                 }
                 left++;
             }
-            ans = Math.max(ans, right-left);
+            result = Math.max(result, right-left);
             right++;
         }
-        return ans;
+        return result;
     }
 }
