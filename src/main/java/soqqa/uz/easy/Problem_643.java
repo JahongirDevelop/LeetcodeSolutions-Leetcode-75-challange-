@@ -14,9 +14,6 @@ public class Problem_643 {
     }
 
 
-
-
-
     public static double findMaxAverage(int[] nums, int k) {
             int sum = 0;
             for(int i = 0; i < k; i ++)
