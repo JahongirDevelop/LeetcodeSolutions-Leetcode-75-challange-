@@ -24,7 +24,9 @@ public class Problem_2390 {
             if(sb.charAt(i) == '*'){
                 sb.deleteCharAt(i);
                 sb.deleteCharAt(i-1);
-                i -= 2;
+                i -= 2; /* 2 ta indeksdagi qiymatni o'chirib yuborganimiz uchun; sikl yana kerakli joydan boshlashi uchun
+                 i ni boshiga qatarib qoyyabmiz. Masalan : bir 4 va 5 indekslarni qirqsak sikl yana 3 dan boshlashi kerak
+                  shuning uchun (5-2) = 3;*/
             }
         }
         return sb.toString();
