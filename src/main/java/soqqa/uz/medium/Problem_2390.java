@@ -9,9 +9,6 @@ public class Problem_2390 {
       Path :
       https://leetcode.com/problems/removing-stars-from-a-string
      */
-
-
-
     public static void main(String[] args) {
         String s = "leet**cod*e ";
         System.out.println(removeStars(s));

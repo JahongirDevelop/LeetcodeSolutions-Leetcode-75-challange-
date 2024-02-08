@@ -15,9 +15,7 @@ public class Problem_1291 {
 
         int low2 = 1000, high2 = 13000;
         System.out.println("Sequential digits between " + low2 + " and " + high2 + ": " + sequentialDigits(low2, high2));
-
     }
-
     public static List<Integer> sequentialDigits(int low, int high) {
         String s = "123456789";
         List<Integer> res = new ArrayList<>();

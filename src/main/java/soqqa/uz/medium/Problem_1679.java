@@ -8,15 +8,11 @@ public class Problem_1679 {
       Path :
       https://leetcode.com/problems/max-number-of-k-sum-pairs
      */
-
     public static void main(String[] args) {
         int[] integers = {1,2,3,4};
         int k = 5;
-
         System.out.println(maxOperations(integers, k));
-
     }
-
     public static int maxOperations(int[] nums, int k) {
         int res = 0;
         ArrayList<Integer> arrayList = new ArrayList<>();

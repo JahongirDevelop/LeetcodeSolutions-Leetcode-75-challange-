@@ -5,12 +5,10 @@ public class Problem_1493 {
       Paths :
         https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element
     */
-
     public static void main(String[] args) {
         int[] nums = {1,1,0,1};
         System.out.println(longestSubarray(nums));
     }
-
     public static int longestSubarray(int[] nums) {
         int count = 0;
         int n = nums.length;

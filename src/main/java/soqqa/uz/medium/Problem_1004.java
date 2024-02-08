@@ -11,8 +11,6 @@ public class Problem_1004 {
      System.out.println(longestOnes(nums, k));
  }
 
-
-
     public static int longestOnes(int[] nums, int k){
         int left = 0,maxCon=0,zCount = 0;
         for (int right=0;right<nums.length;right++){

@@ -17,10 +17,8 @@ public class Problem_279 {
     Input: n = 13
     Output: 2
     Explanation: 13 = 4 + 9.  */
-
         System.out.println(numSquares(12));
     }
-
     public static int numSquares(int n) {
             if (n < 4) return n;
 
