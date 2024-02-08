@@ -6,5 +6,9 @@ public class Problem_162 {
         https://leetcode.com/problems/find-peak-element
     */
 
+    public static void main(String[] args) {
+
+    }
+
 
 }
