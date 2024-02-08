@@ -5,7 +5,6 @@ public class Problem_605 {
       Path :
       https://leetcode.com/problems/can-place-flowers
       */
-
     public static void main(String[] args) {
         int[] flowerbed = {1, 0, 0, 0, 1};
         int n = 1;

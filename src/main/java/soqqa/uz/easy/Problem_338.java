@@ -7,7 +7,6 @@ public class Problem_338 {
       Path :
       https://leetcode.com/problems/counting-bits
       */
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(countBits(2)));
     }

@@ -5,13 +5,10 @@ public class Problem_1071 {
       Paths :
       https://leetcode.com/problems/greatest-common-divisor-of-strings
       */
-
     public static void main(String[] args) {
         String word1 = "ABCABC", word2 = "ABCD";
         System.out.println(gcdOfStrings(word1, word2));
     }
-
-
     public static String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {
             return "";

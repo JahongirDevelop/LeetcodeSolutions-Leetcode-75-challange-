@@ -5,7 +5,6 @@ public class Problem_700 {
       Path :
       https://leetcode.com/problems/first-unique-character-in-a-string
       */
-
     public TreeNode searchBST(TreeNode root, int val) {
         if(root == null)  return null;
         if(root.val == val) return root;

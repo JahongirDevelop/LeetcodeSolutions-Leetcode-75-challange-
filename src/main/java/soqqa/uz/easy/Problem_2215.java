@@ -9,12 +9,10 @@ public class Problem_2215 {
       Path :
       https://leetcode.com/problems/find-the-difference-of-two-arrays
       */
-
     public static void main(String[] args) {
     int[] nums1 = {1,2,3}, nums2 = {2,4,6};
         System.out.println(findDifference(nums1, nums2));
     }
-
     public static List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         HashSet<Integer> set1=new HashSet();
         HashSet<Integer> set2=new HashSet();
