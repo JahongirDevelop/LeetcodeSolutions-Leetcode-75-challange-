@@ -7,13 +7,11 @@ public class Problem_1456 {
       https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length
      */
 
-
     public static void main(String[] args) {
         String s = "abciiidef";
         int k = 3;
         System.out.println(maxVowels(s, k));
     }
-
 
     public static int maxVowels(String s, int k) {
         int max=0;

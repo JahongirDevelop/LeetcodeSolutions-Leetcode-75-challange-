@@ -8,9 +8,7 @@ public class Problem_334 {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
         System.out.println(increasingTriplet(nums));
-
     }
-
     public static boolean increasingTriplet(int[] nums) {
         int small = 0;
         System.out.println("small = " + small);

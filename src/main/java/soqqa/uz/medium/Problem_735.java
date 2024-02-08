@@ -35,7 +35,6 @@ public class Problem_735 {
                 }
             }
         }
-
         int[] result = new int[stack.size()];
         int index = result.length - 1;
         while (!stack.isEmpty()) {

@@ -11,7 +11,6 @@ public class Problem_11 {
         System.out.println(maxArea(height));
     }
 
-
     public static int maxArea(int[] height) {
         int maxArea = 0;
         int left = 0;
