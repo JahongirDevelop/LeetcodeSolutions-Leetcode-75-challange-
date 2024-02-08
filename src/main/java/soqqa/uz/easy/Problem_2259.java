@@ -6,8 +6,6 @@ public class Problem_2259 {
       Path :
       https://leetcode.com/problems/remove-digit-from-number-to-maximize-result
       */
-
-
     public static void main(String[] args) {
         String number = "1231";
         char digit = '1';

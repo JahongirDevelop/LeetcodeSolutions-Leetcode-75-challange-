@@ -6,13 +6,11 @@ public class Problem_643 {
       Path :
       https://leetcode.com/problems/maximum-average-subarray-i
       */
-
     public static void main(String[] args) {
         int[] nums = {1,12,-5,-6,50,3};
         int k = 4;
         System.out.println(findMaxAverage(nums, k));
     }
-
 
     public static double findMaxAverage(int[] nums, int k) {
             int sum = 0;

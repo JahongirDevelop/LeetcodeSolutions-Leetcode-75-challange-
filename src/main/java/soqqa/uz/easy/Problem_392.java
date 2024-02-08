@@ -12,7 +12,6 @@ public class Problem_392 {
         System.out.println(isSubsequence(s, t));
         System.out.println(isSubsequence(s1, t1));
     }
-
     public static boolean isSubsequence(String s, String t) {
         int i=0;
         int j=0;

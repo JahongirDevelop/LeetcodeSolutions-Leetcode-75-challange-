@@ -5,12 +5,10 @@ public class Problem_283 {
       Path :
       https://leetcode.com/problems/move-zeroes
       */
-
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) {
             return;
         }
-
         int nonZeroIndex = 0;
 
         // Iterate through the array
